@@ -19,7 +19,7 @@ Content-Type: application/json
 ###
 POST http://localhost:3000/api/posts
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5ZmUyZDM5NGI2MDlmNWI4ODA0NWUiLCJpYXQiOjE2NjA0NjQ2OTB9.F5vIik1WYZ3AUew0M1XUEEqg9zYyK-2dMJj27gKiPvU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzA0YTJhZTY3NmMyYzc4NmJjZTcwZjgiLCJpYXQiOjE2NjEyNjQ1NzN9.K-53AODhvTtvr0tf0wUY3cMm53YrtLQWQ63-2yr5ChA
     
 {
     "title": "React 3",
@@ -30,13 +30,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5Z
 
 ###
 GET http://localhost:3000/api/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5ZmUyZDM5NGI2MDlmNWI4ODA0NWUiLCJpYXQiOjE2NTk1ODc1MDJ9.4saj9M2SQWn5wBKdF44-lp7TnmhpkEaLct8ZcGlYC6I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzA0YTJhZTY3NmMyYzc4NmJjZTcwZjgiLCJpYXQiOjE2NjEyNjQ1NzN9.K-53AODhvTtvr0tf0wUY3cMm53YrtLQWQ63-2yr5ChA
 
 ####
 
 PUT http://localhost:3000/api/posts/62ea5856a3f79f1ebb902cb7
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5ZmUyZDM5NGI2MDlmNWI4ODA0NWUiLCJpYXQiOjE2NTk1ODc1MDJ9.4saj9M2SQWn5wBKdF44-lp7TnmhpkEaLct8ZcGlYC6I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzA0YTJhZTY3NmMyYzc4NmJjZTcwZjgiLCJpYXQiOjE2NjEyNjQ1NzN9.K-53AODhvTtvr0tf0wUY3cMm53YrtLQWQ63-2yr5ChA
 
 {
     "title": "React",
@@ -47,4 +47,4 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5Z
 
 ###
 DELETE http://localhost:3000/api/posts/62ea5856a3f79f1ebb902cb7
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5ZmUyZDM5NGI2MDlmNWI4ODA0NWUiLCJpYXQiOjE2NTk1ODc1MDJ9.4saj9M2SQWn5wBKdF44-lp7TnmhpkEaLct8ZcGlYC6I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzA0YTJhZTY3NmMyYzc4NmJjZTcwZjgiLCJpYXQiOjE2NjEyNjQ1NzN9.K-53AODhvTtvr0tf0wUY3cMm53YrtLQWQ63-2yr5ChA
