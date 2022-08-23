@@ -8,7 +8,11 @@ const postRouter = require('./routes/post')
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@mycourse.v7ar1vu.mongodb.net/?retryWrites=true&w=majority`)
+        await mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@mycourse.v7ar1vu.mongodb.net/?retryWrites=true&w=majority`,
+            {
+                useNewUrlParser: true,
+                useUnifiedTopology: true
+            })
         console.log('Mongoose connected!')
     } catch (error) {
         console.log(error.message)
@@ -25,7 +29,7 @@ app.use(cors())
 app.use('/api/auth', authRouter)
 app.use('/api/posts', postRouter)
 
-const PORT = process.env.PORT  || 3000
+const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`)
